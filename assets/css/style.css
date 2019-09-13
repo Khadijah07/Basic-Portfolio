@@ -21,7 +21,7 @@ main {
     height: 650px;
     padding: 10px;
     border: 1px; 
-    margin: 25px;
+    margin: 45px;
     padding: 30px;
 }
 
@@ -37,6 +37,7 @@ h1 {
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: teal;
+    text-decoration-line: underline;
 }
 
 
