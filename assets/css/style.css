@@ -2,10 +2,10 @@
     box-sizing: border-box; 
 }
 
-#container {
+.container {
   margin: 0 auto;
   margin-top: 50px;
-  width: 1000px;
+  width: 960px;
   color: white;
   display: flex; 
   flex-direction: column;
@@ -17,7 +17,7 @@ main {
     background-color:white;
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 700px;
+    width: 960px;
     height: 650px;
     padding: 10px;
     border: 1px; 
@@ -37,7 +37,6 @@ h1 {
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: teal;
-    text-decoration-line: underline;
 }
 
 
@@ -84,10 +83,24 @@ li a {
     color: #e6e6e6; 
     border-style: solid;
     border-color: pink;
-    padding: 2px;
-    margin: 2px;
+    background-color:pink;
+    padding: 10px;
+    margin: 10px;
+    align-items: stretch; 
 }
 
-.fixed-bottom {
-    
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    margin-top: 25px;
+    background-color: #1f7a1f;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 8px solid teal;
 }
