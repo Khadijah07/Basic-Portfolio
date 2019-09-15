@@ -18,7 +18,7 @@ main {
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 960px;
-    height: 650px;
+    height: 550px;
     padding: 10px;
     border: 1px; 
     margin: 45px;
@@ -104,3 +104,52 @@ li a {
     align-items: center;
     border-top: 8px solid teal;
 }
+
+input {
+    width: 770px;
+    margin: 15px 0px;
+    flex-direction: column;
+}
+
+input [type=submit]:hover {
+    background-color: teal;
+}
+
+label, input {
+    display: block;
+}
+
+input[type=submit] {
+background-color: teal;
+color: white;
+border:none;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+cursor: pointer;
+border-radius: 4px;
+}
+
+.container2 {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 960px;
+    color: white;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+a:hover {
+    color: pink;
+
+}
+
+a:link {
+    color: pink;
+}
+
+/* my <div class="description"> was supposed to have the info to make 
+the text banner to go over the photo , 
+but the text wouldn't cooperate and it was
+overlapping.
